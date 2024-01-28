@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./c.css">
+  </head>
+  <body>
+    <div class="foorm">
+      <form action=""  >
+        <p style=" margin-left: 25%; font-size: xx-large">
+          <b>Color palette generator</b>
+        </p>
+        <br /><br />
+  
+        <label for="num_color"><b style="font-size: x-large;"> Choose number of Colors :  </b></label><br><br>
+        <select id="num_color" name="num_color" size="1" style="width: 18cm;" >
+  
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          
+  
+        </select><br><br>
+  
+         <label for="typeOfColor" ><b style="font-size: x-large;"> Choose the type of color you want :</b></label><br><br>
+         <select id="Type_color" name="Type_color" size="1" style="width: 18cm;" >
+  
+          <option value="1">HEX</option>
+          <option value="2">RGB</option>
+         
+  
+          
+  
+        </select><br><br>      
+        <button onclick="generate()">Generate!</button>
+  
+        <div id="Colors">
+           
+        </div> 
+  
+      </form>
+    </div>
+
+    <script src="./js1.js"></script>
+
+  </body>
+</html>
