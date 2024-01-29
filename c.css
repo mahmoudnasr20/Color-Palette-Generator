@@ -1,3 +1,6 @@
+ body{
+    background-color: #64CCC5;
+ }
  .foorm{
     background-color: #64CCC5;
 color:#001C30 ;
@@ -5,8 +8,9 @@ color:#001C30 ;
  align-items: center;
  flex-direction: column;
 width: 100%;
-min-height: 180ch;
+min-height: 105ch;
 height: 100%;
+margin: 0;
 }
 form{
     margin: 20px;
