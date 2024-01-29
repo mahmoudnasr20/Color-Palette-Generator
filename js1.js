@@ -92,3 +92,6 @@ function createDivRgb() {
 
   document.getElementById("Colors").appendChild(div);
 }
+function refreshSite() {
+  location.reload();
+}
